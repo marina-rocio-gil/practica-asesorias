@@ -5,9 +5,10 @@
 }
 
 .asesoria-img {
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 #asesorias-container {
@@ -40,6 +41,19 @@
 .asesoria-grid {
     margin-bottom: 20px;
     padding: 15px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 1px rgb(0,0,0,0.3);
+}
+
+.asesoria-grid h4 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 576px) {
